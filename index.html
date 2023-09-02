@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Intro Component with sign-up form
+        </title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+        </style>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <script src="script.js"></script>
+        <img src="images/bg-intro-desktop.png" class="img1">
+        <h1>Learn to code by watching others</h1>
+        <p class="p1">See how experienced developers solve problems in real-time.
+            Watching scripted tutorials is great, but understanding how
+            developers think is invaluable.</p>
+            <button class="btn"><p class="p4">Try it free 7 days</p><p class="p3">then $20/mo. thereafter</p></button>
+        <form action="#" id="form">
+            
+            <div class="sgn-upbx">
+
+                <label for="firstname"></label> 
+                <input class="eb" type="text" placeholder="First Name" id="firstname" required><br>
+                <svg class="svg1" id="svg1" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
+                <p class="etxt" id="etx1">First Name cannot be empty</p>
+
+                <label for="lastname"></label>
+                <input class="eb" type="text" placeholder="Last Name" id="lastname" required><br>
+                <svg class="svg2" id="svg2" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
+                <p class="etxt" id="etx2">Last Name cannot be empty</p>
+
+                <label for="email"></label>
+                <input class="eb" type="email" placeholder="Email Address" id="email" required><br>
+                <svg class="svg3" id="svg3" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
+                <p class="etxt" id="etx3">Looks like this is not an email</p>
+
+                <label for="password"></label>
+                <input class="eb" type="password" placeholder="Password" id="password" required><br>
+                <svg class="svg4" id="svg4" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
+                <p class="etxt" id="etx4">Password cannot be empty</p>
+
+                <button id="submitbtn" type="submit">claim your free trail</button>
+                <p>By clicking the button, you are agreeing to our <p class="p2">Terms and Services</p></p>
+            </div>
+        </form>
+    </body>
+</html>
